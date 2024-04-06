@@ -1,11 +1,25 @@
 import readlineSync from 'readline-sync';
 
 const isNumberEvenGame = () => {
+  const greeting = () => {
+    console.log('Welcome to the Brain Games!');
+  };
+
+  greeting();
+
+  const nameRequest = () => {
+    const userName = readlineSync.question('May I have your name? ');
+    console.log(`Hi ${userName}!`);
+    return userName;
+  };
+
+  const name = nameRequest();
+
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
   const current = 'Current!';
-  const yesIsWrong = "'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, User!";
-  const noIsWrong = "'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, User!";
+  const yesIsWrong = `'yes' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${name}!`;
+  const noIsWrong = `'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${name}!`;
 
   for (let i = 0; i <= 2; i += 1) {
     const randomNumber = Math.floor(Math.random() * (101 - 1) + 1);
@@ -14,16 +28,25 @@ const isNumberEvenGame = () => {
     console.log(`'Question:' ${randomNumber}`);
     const answer = readlineSync.question('Your answer: ');
 
+    if (answer !== 'yes' && answer !== 'no') {
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${name}!`);
+      break;
+    }
+
     if (answer === 'yes' && numberIsEven === 0) {
       console.log(`${current}`);
     } if (answer === 'yes' && numberIsEven !== 0) {
       console.log(`${yesIsWrong}`);
-      i += 2;
+      break;
     } if (answer === 'no' && numberIsEven !== 0) {
       console.log(`${current}`);
     } if (answer === 'no' && numberIsEven === 0) {
       console.log(`${noIsWrong}`);
-      i += 2;
+      break;
+    }
+
+    if (i === 2) {
+      console.log(`Congratulations, ${name}!`);
     }
   }
 };
