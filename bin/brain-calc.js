@@ -19,7 +19,10 @@ const calculatorGame = () => {
 
     console.log('What is the result of the expression?');
 
-    for (let i = 0; i <= 2; i += 1) {
+    let score = 0;
+    let maxScore = 3;
+
+    while (score < maxScore) {
 
         const randomNumber1 = Math.floor(Math.random() * (101 - 1) + 1);
         const randomNumber2 = Math.floor(Math.random() * (101 - 1) + 1);
@@ -27,7 +30,8 @@ const calculatorGame = () => {
         const operators = ['+', '-', '*'];
         const randomOperator = operators[Math.floor(Math.random() * operators.length)];
 
-        console.log(`'Question:' ${randomNumber1} ${randomOperator} ${randomNumber2}`);
+        const question = `${randomNumber1} ${randomOperator} ${randomNumber2}`
+        console.log(`'Question:' ${question}`);
 
         const askForAnswer = () => {
             return readlineSync.question('Your answer: ');
@@ -56,14 +60,15 @@ const calculatorGame = () => {
         const correctAnswerMessage = 'Correct!';
         const wrongAnswerMessage = `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`;
 
-        if (parseInt(answer) === correctAnswer) {
+        if (answer == correctAnswer) {
             console.log(correctAnswerMessage);
+            score += 1;
           } else {
             console.log(wrongAnswerMessage);
             break;
           }
           
-          if (i === 2) {
+          if (score === maxScore) {
             console.log(`Congratulations, ${name}!`);
           }
         }
