@@ -8,13 +8,13 @@ const isNumberEvenGame = () => {
   greeting(); // приветствуем пользователя
 
   // объявляем функцию, которая запрашивает имя пользователя, приветствует его и возвращает введеное имя наружу
-  const nameRequest = () => {
+  const askForName = () => {
     const userName = readlineSync.question('May I have your name? ');
     console.log(`Hi ${userName}!`);
     return userName;
   };
 
-  const name = nameRequest(); // помещаем в переменную 'name' введеное имя пользователя для его дальнейшего использования
+  const name = askForName(); // помещаем в переменную 'name' введеное имя пользователя для его дальнейшего использования
 
   console.log('Answer "yes" if the number is even, otherwise answer "no".'); // "выводим на экран" текст с правилами игры
 
