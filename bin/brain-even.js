@@ -7,7 +7,7 @@ const isNumberEvenGame = () => {
   // // объявляем функцию, которая приветствует пользователя
   const greeting = () => {
     console.log('Welcome to the Brain Games!');
-  }; 
+  };
 
   greeting() // приветствуем пользователя
 
