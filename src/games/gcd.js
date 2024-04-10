@@ -52,4 +52,4 @@ const gcdGame = () => {
   brainEngine(rules, generateRound);
 };
 
-export { gcdGame };
+export default gcdGame;

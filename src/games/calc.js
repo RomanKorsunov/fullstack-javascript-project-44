@@ -42,4 +42,4 @@ const calculatorGame = () => {
   brainEngine(rules, generateRound);
 };
 
-export { calculatorGame };
+export default calculatorGame;
