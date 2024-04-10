@@ -24,4 +24,4 @@ const isEvenGame = () => {
   brainEngine(rules, generateRound);
 };
 
-isEvenGame();
+export { isEvenGame };
