@@ -5,13 +5,13 @@ import brainEngine from '../index.js';
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEvenGame = () => {
-  const getRandomInt = (min, max) => Math.floor(Math.random() * (max + 1 - min) + min);
+  const getRandomInt = () => Math.floor(Math.random() * (101 - 1) + 1);
   const isEven = (num) => num % 2 === 0;
 
   const generateRound = () => {
     const randomNumber = getRandomInt(0, 100);
-    const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
     const question = randomNumber.toString();
+    const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
 
     return [correctAnswer, question];
   };
