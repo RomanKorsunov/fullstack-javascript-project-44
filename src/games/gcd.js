@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-import brainEngine from "../index.js";
+import brainEngine from '../index.js';
 
-const rules = "Find the greatest common divisor of given numbers.";
+const rules = 'Find the greatest common divisor of given numbers.';
 
 const gcdGame = () => {
   const getRandomInts = () => {
@@ -33,9 +33,7 @@ const gcdGame = () => {
     return newColl;
   };
 
-  const getMaxOfArray = (numArray) => {
-    return Math.max.apply(null, numArray);
-  };
+  const getMaxOfArray = (numArray) => Math.max.apply(null, numArray);
 
   const generateRound = () => {
     const [randomNumber1, randomNumber2] = getRandomInts();
