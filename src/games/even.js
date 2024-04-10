@@ -19,4 +19,4 @@ const isEvenGame = () => {
   brainEngine(rules, generateRound);
 };
 
-export { isEvenGame };
+export default isEvenGame;
