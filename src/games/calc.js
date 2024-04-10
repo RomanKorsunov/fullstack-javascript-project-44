@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-import brainEngine from "../index.js";
+import brainEngine from '../index.js';
 
-const rules = "What is the result of the expression?";
+const rules = 'What is the result of the expression?';
 
 const calculatorGame = () => {
   const getRandomOperator = () => {
-    const operators = ["+", "-", "*"];
+    const operators = ['+', '-', '*'];
     return operators[Math.floor(Math.random() * operators.length)];
   };
 
@@ -24,13 +24,13 @@ const calculatorGame = () => {
     let correctAnswer = 0;
 
     switch (randomOperator) {
-      case "+":
+      case '+':
         correctAnswer = randomNumber1 + randomNumber2;
         break;
-      case "-":
+      case '-':
         correctAnswer = randomNumber1 - randomNumber2;
         break;
-      case "*":
+      case '*':
         correctAnswer = randomNumber1 * randomNumber2;
         break;
       default:

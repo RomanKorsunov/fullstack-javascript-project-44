@@ -18,7 +18,7 @@ const brainEngine = (rules, generateRound) => {
     const userAnswer = readlineSync.question("Your asnwer: ");
 
     if (correctAnswer === userAnswer) {
-      console.log(`Correct!`);
+      console.log("Correct!");
     } else {
       console.log(
         `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`
