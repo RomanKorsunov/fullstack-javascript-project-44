@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import brainEngine from '../index.js';
+import getRandomInts from '../randomInts.js';
 
 const rules = 'What is the result of the expression?';
 
@@ -8,12 +9,6 @@ const calculatorGame = () => {
   const getRandomOperator = () => {
     const operators = ['+', '-', '*'];
     return operators[Math.floor(Math.random() * operators.length)];
-  };
-
-  const getRandomInts = () => {
-    const randomNumber1 = Math.floor(Math.random() * (101 - 1) + 1);
-    const randomNumber2 = Math.floor(Math.random() * (101 - 1) + 1);
-    return [randomNumber1, randomNumber2];
   };
 
   const generateRound = () => {
