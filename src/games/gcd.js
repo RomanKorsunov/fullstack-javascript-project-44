@@ -7,12 +7,15 @@ const rules = 'Find the greatest common divisor of given numbers.';
 
 const gcdGame = () => {
   const getGcdNumbers = (number1, number2) => {
-    while (number2 !== 0) {
-      const temp = number2;
-      number2 = number1 % number2;
-      number1 = temp;
+    let num1 = number1;
+    let num2 = number2;
+
+    while (num2 !== 0) {
+      const temp = num2;
+      num2 = num1 % num2;
+      num1 = temp;
     }
-    return number1;
+    return num1;
   };
 
   const generateRound = () => {
