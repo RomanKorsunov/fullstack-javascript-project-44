@@ -9,7 +9,7 @@ const isEvenGame = () => {
   const isEven = (num) => num % 2 === 0;
 
   const generateRound = () => {
-    const randomNumber = getRandomInt(0, 100);
+    const randomNumber = getRandomInt();
     const question = randomNumber.toString();
     const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
 
