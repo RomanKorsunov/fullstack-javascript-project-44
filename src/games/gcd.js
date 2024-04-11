@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import brainEngine from '../index.js';
-import getRandomInts from '../randomInts.js';
+import getRandomInt from '../randomInt.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';
 
@@ -29,14 +29,12 @@ const gcdGame = () => {
   };
 
   const generateRound = () => {
-    const [randomNumber1, randomNumber2] = getRandomInts();
-
-    const divisor1 = getDivisor(randomNumber1);
-    const divisor2 = getDivisor(randomNumber2);
+    const divisor1 = getDivisor(getRandomInt());
+    const divisor2 = getDivisor(getRandomInt());
 
     const intersections = getIntersections(divisor1, divisor2);
 
-    const question = `${randomNumber1} ${randomNumber2}`;
+    const question = `${getRandomInt()} ${getRandomInt()}`;
     const correctAnswer = Math.max.apply(null, intersections);
 
     return [correctAnswer.toString(), question];
