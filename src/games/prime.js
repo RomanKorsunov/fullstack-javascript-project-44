@@ -31,4 +31,4 @@ const isPrimeGame = () => {
   brainEngine(rules, generateRound);
 };
 
-isPrimeGame();
+export default isPrimeGame;
