@@ -34,10 +34,8 @@ Each of the game is run by a command with the appropriate name:
             <dd>Язык описания внешнего вида документа</dd>
 </dl>
 
-<br>
-<br>
-
-Example:
+## Example:
+            
 ```console
 brain-even
 
