@@ -31,7 +31,10 @@ const gcdGame = () => {
   const generateRound = () => {
     const [randomNumber1, randomNumber2] = getRandomInts();
 
-    const intersections = getIntersections(getDivisor(randomNumber2), getDivisor(randomNumber1));
+    const divisor1 = getDivisor(randomNumber1);
+    const divisor2 = getDivisor(randomNumber2);
+
+    const intersections = getIntersections(divisor1, divisor2);
 
     const question = `${randomNumber1} ${randomNumber2}`;
     const correctAnswer = Math.max.apply(null, intersections);
