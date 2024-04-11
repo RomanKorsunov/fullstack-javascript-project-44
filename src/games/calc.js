@@ -19,19 +19,14 @@ const calculatorGame = () => {
 
     let correctAnswer = 0;
 
-    switch (randomOperator) {
-      case '+':
-        correctAnswer = randomNumber1 + randomNumber2;
-        break;
-      case '-':
-        correctAnswer = randomNumber1 - randomNumber2;
-        break;
-      case '*':
-        correctAnswer = randomNumber1 * randomNumber2;
-        break;
-      default:
-        correctAnswer = null;
+    if (randomOperator === '+') {
+      correctAnswer = randomNumber1 + randomNumber2;
+    } else if (randomOperator === '-') {
+      correctAnswer = randomNumber1 - randomNumber2;
+    } else {
+      correctAnswer = randomNumber1 * randomNumber2;
     }
+
     return [correctAnswer.toString(), question];
   };
 
