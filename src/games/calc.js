@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import brainEngine from '../index.js';
-import getRandomInts from '../randomInts.js';
+import getRandomInt from '../randomInt.js';
 
 const rules = 'What is the result of the expression?';
 
@@ -13,7 +13,8 @@ const calculatorGame = () => {
 
   const generateRound = () => {
     const randomOperator = getRandomOperator();
-    const [randomNumber1, randomNumber2] = getRandomInts();
+    const randomNumber1 = getRandomInt();
+    const randomNumber2 = getRandomInt();
     const question = `${randomNumber1} ${randomOperator} ${randomNumber2}`;
 
     let correctAnswer = 0;

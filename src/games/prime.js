@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 
 import brainEngine from '../index.js';
+import getRandomInt from '../randomInt.js';
 
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrimeGame = () => {
-  const getRandomInt = () => Math.floor(Math.random() * (101 - 1) + 1);
-
   const isPrime = (number) => {
     if (number < 2) {
       return false;
