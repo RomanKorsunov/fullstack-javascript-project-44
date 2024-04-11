@@ -16,7 +16,7 @@ const progressionGame = () => {
     return progression;
   };
 
-  const getHideNumber = (progression) => {
+  const getUpdateProgression = (progression) => {
     const hiddenIndex = Math.floor(Math.random() * (10 - 2) + 2);
     const hiddenNumber = progression[hiddenIndex];
     const replacedNumber = '..';
@@ -30,7 +30,7 @@ const progressionGame = () => {
   };
 
   const generateRound = () => {
-    const [question, correctAnswer] = getHideNumber(getProgression());
+    const [question, correctAnswer] = getUpdateProgression(getProgression());
     return [correctAnswer.toString(), question];
   };
 
