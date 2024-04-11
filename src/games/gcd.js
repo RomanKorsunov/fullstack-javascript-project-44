@@ -28,15 +28,13 @@ const gcdGame = () => {
     return newColl;
   };
 
-  const getMaxOfArray = (numArray) => Math.max.apply(null, numArray);
-
   const generateRound = () => {
     const [randomNumber1, randomNumber2] = getRandomInts();
 
     const intersections = getIntersections(getDivisor(randomNumber2), getDivisor(randomNumber1));
 
     const question = `${randomNumber1} ${randomNumber2}`;
-    const correctAnswer = getMaxOfArray(intersections);
+    const correctAnswer = Math.max.apply(null, intersections);
 
     return [correctAnswer.toString(), question];
   };
