@@ -18,14 +18,10 @@ const progressionGame = () => {
 
   const getUpdateProgression = (progression) => {
     const hiddenIndex = Math.floor(Math.random() * (10 - 2) + 2);
-    const hiddenNumber = progression[hiddenIndex];
     const replacedNumber = '..';
 
-    const updateProgression = [];
-    for (const number of progression) {
-      const updateNumber = (number === hiddenNumber) ? replacedNumber : number;
-      updateProgression.push(updateNumber);
-    }
+    const updateProgression = progression.slice();
+    updateProgression[hiddenIndex] = replacedNumber;
     return [updateProgression.join(' '), progression[hiddenIndex]];
   };
 
