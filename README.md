@@ -3,6 +3,7 @@
 
 <h3>CodeClimate status:</h3> <a href="https://codeclimate.com/github/RomanKorsunov/fullstack-javascript-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/a55d7d04b223d7217d3d/maintainability"/></a>
 
+<hr></hr>
 
 <h3>Demonstration of the gameplay of each of the games:</h3>
 
