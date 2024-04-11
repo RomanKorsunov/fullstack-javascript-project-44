@@ -5,4 +5,4 @@
 
 
 <h3>Run demo brain-even</h3>
-[![asciicast](https://asciinema.org/a/mIbGcgDgFXaRvzfjn1L0paZsN.svg)](https://asciinema.org/a/mIbGcgDgFXaRvzfjn1L0paZsN)
+<a href="https://asciinema.org/a/mIbGcgDgFXaRvzfjn1L0paZsN" target="_blank"><img src="https://asciinema.org/a/mIbGcgDgFXaRvzfjn1L0paZsN.svg" /></a>
