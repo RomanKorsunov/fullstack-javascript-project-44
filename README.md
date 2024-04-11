@@ -5,4 +5,16 @@
 
 
 <h3>Run demo brain-even</h3>
-<a href="https://asciinema.org/a/mIbGcgDgFXaRvzfjn1L0paZsN" target="_blank"><img src="https://asciinema.org/a/mIbGcgDgFXaRvzfjn1L0paZsN.svg" /></a>
+<a href="https://asciinema.org/a/PaNhlzljKmNk4vzJGphp9wq6F" target="_blank"><img src="https://asciinema.org/a/PaNhlzljKmNk4vzJGphp9wq6F.svg" /></a>
+
+<h3>Run demo brain-calc</h3>
+<a href="https://asciinema.org/a/tZQiKZmy2dPUXA5j5nt9oy6U3" target="_blank"><img src="https://asciinema.org/a/tZQiKZmy2dPUXA5j5nt9oy6U3.svg" /></a>
+
+<h3>Run demo brain-gcd</h3>
+<a href="https://asciinema.org/a/ltQQIPag30ZQhfRp461V3BWvy" target="_blank"><img src="https://asciinema.org/a/ltQQIPag30ZQhfRp461V3BWvy.svg" /></a>
+
+<h3>Run demo brain-progression</h3>
+<a href="https://asciinema.org/a/qSAtjmMFj8cWcA4E71at3tKQJ" target="_blank"><img src="https://asciinema.org/a/qSAtjmMFj8cWcA4E71at3tKQJ.svg" /></a>
+
+<h3>Run demo brain-prime</h3>
+<a href="https://asciinema.org/a/2zkKInWE6PkYpBbmRfEeFNh0K" target="_blank"><img src="https://asciinema.org/a/2zkKInWE6PkYpBbmRfEeFNh0K.svg" /></a>
