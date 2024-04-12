@@ -23,15 +23,20 @@ Each of the game is run by a command with the appropriate name:
 
 <dl>
             <a href="#brain-even"><dt>brain-even</dt></a>
-            <dd>Язык описания внешнего вида документа</dd>
+            <dd>In this game, you will be required to correctly determine whether the represented number is even or not. 
+            Please note that the correct answer is only "yes" or "no" - any other set of characters will be interpreted as an incorrect answer.</dd>
             <a href="#brain-calc"><dt>brain-calc</dt></a>
-            <dd>Язык описания внешнего вида документа</dd>
+            <dd>In this game you will be asked to calculate the presented expression correctly. As a gesture of goodwill, we have limited the set of operations to these three: addition, subtraction and multiplication. 
+            Wait for an expression with finding the square root of a number and exponentiation in version 2.0!</dd>
             <a href="#brain-gcd"><dt>brain-gcd</dt></a>
-            <dd>Язык описания внешнего вида документа</dd>
+            <dd>This game will force you to determine the greatest common divisor of two specified numbers. 
+            Don't worry, the link to the article "what is the greatest common divisor?" and the GCD calculator will be below.</dd>
             <a href="#brain-progresiion"><dt>brain-progression</dt></a>
-            <dd>Язык описания внешнего вида документа</dd>
+            <dd>In this game, you will need to determine which number was hidden in the presented arithmetic progression. 
+            It took us the most time to create this game, so please go through it several times.</dd>
             <a href="#brain-prime"><dt>brain-prime</dt></a>
-            <dd>Язык описания внешнего вида документа</dd>
+            <dd>In this game, it is necessary to determine exactly whether the represented number is prime or not. 
+            Remember that only "yes" or "no" answers are accepted - it is better to send your outraged messages to the author in direct.</dd>
 </dl>
 
 ## Example:
