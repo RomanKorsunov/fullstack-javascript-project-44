@@ -64,20 +64,20 @@ Your asnwer:
 
 <a name="brain-even"></a>
 <h4>Brain-even game demo</h4>
-<a href="https://asciinema.org/a/PaNhlzljKmNk4vzJGphp9wq6F" target="_blank"><img src="https://asciinema.org/a/PaNhlzljKmNk4vzJGphp9wq6F.svg" /></a>
+<a href="https://asciinema.org/a/659822" target="_blank"><img src="https://asciinema.org/a/659822.svg" /></a>
 
 <a name="brain-calc"></a>
 <h4>Brain-calc game demo</h4>
-<a href="https://asciinema.org/a/tZQiKZmy2dPUXA5j5nt9oy6U3" target="_blank"><img src="https://asciinema.org/a/tZQiKZmy2dPUXA5j5nt9oy6U3.svg" /></a>
+<a href="https://asciinema.org/a/659823" target="_blank"><img src="https://asciinema.org/a/659823.svg" /></a>
 
 <a name="brain-gcd"></a>
 <h4>Brain-gcd game demo</h4>
-<a href="https://asciinema.org/a/ltQQIPag30ZQhfRp461V3BWvy" target="_blank"><img src="https://asciinema.org/a/ltQQIPag30ZQhfRp461V3BWvy.svg" /></a>
+<a href="https://asciinema.org/a/659824" target="_blank"><img src="https://asciinema.org/a/659824.svg" /></a>
 
 <a name="brain-progresiion"></a>
 <h24>Brain-progression game demo</h4>
-<a href="https://asciinema.org/a/qSAtjmMFj8cWcA4E71at3tKQJ" target="_blank"><img src="https://asciinema.org/a/qSAtjmMFj8cWcA4E71at3tKQJ.svg" /></a>
+<a href="https://asciinema.org/a/659826" target="_blank"><img src="https://asciinema.org/a/659826.svg" /></a>
 
 <a name="brain-prime"></a>
 <h4>Brain-prime game demo</h4>
-<a href="https://asciinema.org/a/2zkKInWE6PkYpBbmRfEeFNh0K" target="_blank"><img src="https://asciinema.org/a/2zkKInWE6PkYpBbmRfEeFNh0K.svg" /></a>
+<a href="https://asciinema.org/a/659828" target="_blank"><img src="https://asciinema.org/a/659828.svg" /></a>
