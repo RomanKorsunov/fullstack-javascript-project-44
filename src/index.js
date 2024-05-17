@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
+import makeWelcome from './cli.js';
 
 const roundsCount = 3;
 
 const brainEngine = (rules, generateRound) => {
-  console.log('Welcome to the Brain Games!');
-  const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
+  const userName = makeWelcome();
 
   console.log(`${rules}`);
 

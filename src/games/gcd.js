@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import brainEngine from '../index.js';
-import getRandomInt from '../randomInt.js';
+import getRandomInRange from '../randomInt.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';
 
@@ -19,8 +19,8 @@ const gcdGame = () => {
   };
 
   const generateRound = () => {
-    const number1 = getRandomInt();
-    const number2 = getRandomInt();
+    const number1 = getRandomInRange();
+    const number2 = getRandomInRange();
 
     const question = `${number1} ${number2}`;
     const correctAnswer = getGcdNumbers(number1, number2);

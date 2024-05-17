@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
-const getRandomInt = () => {
-  const randomNumber = Math.floor(Math.random() * (101 - 1) + 1);
-  return randomNumber;
+const getRandomInRange = (min = 0, max = 100) => {
+  return Math.floor(min + Math.random() * (max - min + 1));
 };
 
-export default getRandomInt;
+export default getRandomInRange;
