@@ -1,20 +1,16 @@
 #!/usr/bin/env node
 
 import brainEngine from '../index.js';
-import getRandomInt from '../randomInt.js';
+import getRandomInRange from '../randomInt.js';
+import getRandomOperator from '../randomOperator.js';
 
 const rules = 'What is the result of the expression?';
 
 const calculatorGame = () => {
-  const getRandomOperator = () => {
-    const operators = ['+', '-', '*'];
-    return operators[Math.floor(Math.random() * operators.length)];
-  };
-
   const generateRound = () => {
     const randomOperator = getRandomOperator();
-    const randomNumber1 = getRandomInt();
-    const randomNumber2 = getRandomInt();
+    const randomNumber1 = getRandomInRange();
+    const randomNumber2 = getRandomInRange();
     const question = `${randomNumber1} ${randomOperator} ${randomNumber2}`;
 
     let correctAnswer = 0;
