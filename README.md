@@ -14,9 +14,19 @@ Only three rounds in each of the games separate you from the honorary title of t
 
 ## Installation
 
+### 1. Cloning repository into your system
 ```console
-npm install brain-games
+git clone https://github.com/RomanKorsunov/fullstack-javascript-project-44.git
 ```
+
+### 2. Install all the necessary dependencies
+```console
+npm ci
+```
+
+### 3. Run each game using the commands listed below in the instructions
+
+
 ## Launch
 Each of the game is run by a command with the appropriate name:
 <br>
