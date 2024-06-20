@@ -1,10 +1,12 @@
-#!/usr/bin/env node
-
 import brainEngine from '../index.js';
 import getRandomInRange from '../randomInt.js';
-import getRandomOperator from '../randomOperator.js';
 
 const rules = 'What is the result of the expression?';
+
+const getRandomOperator = () => {
+  const operators = ['+', '-', '*'];
+  return operators[Math.floor(Math.random() * operators.length)];
+};
 
 const calculatorGame = () => {
   const generateRound = () => {

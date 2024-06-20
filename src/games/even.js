@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import brainEngine from '../index.js';
 import getRandomInRange from '../randomInt.js';
 

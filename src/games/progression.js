@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import brainEngine from '../index.js';
 
 const rules = 'What number is missing in the progression?';
